@@ -24,7 +24,7 @@ type User struct {
 }
 
 func (u User) GetStatus() {
-	fmt.Println("is User Active: ", u.Status)
+	fmt.Println("is this User Active:  ", u.Status)
 }
 
 func (u User) NewMail() {
